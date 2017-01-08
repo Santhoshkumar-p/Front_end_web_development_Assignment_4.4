@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Exercise</title>
+	<style>
+		#grad1{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100px;
+			width: 100px;
+			background: radial-gradient(at top,red,yellow,green);
+			border-radius: 10px;
+			box-shadow: 10px 10px 5px #888888;
+			}
+		#grad2{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100px;
+			width: 100px;
+			background: radial-gradient(circle at top,red,yellow,green);
+			border-radius: 10px;
+			box-shadow: 10px 10px 5px #888888;
+		}
+		#grad3{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100px;
+			width: 100px;
+			background: linear-gradient(90deg,red,green);
+			border-radius: 10px;
+			box-shadow: 10px 10px 5px #888888;
+		}
+	</style>
+</head>
+<body>
+<center>
+<table cellspacing="30">
+<tr>
+<td><div id="grad3"><p>Box</p></div></td>
+<td><div id="grad2"><p>Box</p></div></td>
+<td><div id="grad1"><p>Box</p></div></td>
+</tr>	
+</table></center>
+<center>
+<p style="color: black;">
+Note: Please view it in Google Chrome
+</p></center>
+</body>
+</html>
